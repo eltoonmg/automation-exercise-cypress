@@ -149,7 +149,7 @@ describe("Automation Exercise", () => {
 
   });
 
-   it("Test Case 16: Finalizar pedido: fazer login antes de concluir a compra", () => {
+   it.only("Test Case 16: Finalizar pedido: fazer login antes de concluir a compra", () => {
     // Arrange: Acessar página
 
     // Arrange: preparar um usuário válido
