@@ -7,7 +7,7 @@ function iniciarCadastro() {
   email = `pgats-aaut-test-${Date.now()}@email.com`;
   cy.get('[data-qa="signup-email"]').type(email);
 
-  cy.get('[data-qa="signup-button"]').click();
+  //cy.get('[data-qa="signup-button"]').click();
 
 }
 

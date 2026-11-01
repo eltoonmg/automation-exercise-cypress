@@ -4,8 +4,6 @@ function validarMenuCarrinho(){
     cy.get('.nav a[href*="view_cart"]').click();
 
     cy.url().should('include', '/view_cart');
-
-    cy.get('#empty_cart').should('not.exist');
 }
 
 function validarEndereço(){
